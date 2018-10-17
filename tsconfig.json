@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        // 配置awesome-typescript-loader时根据npm网说明加上的
+        "noImplicitAny": true,
+        "removeComments": true,
+        // 没有这个配置节点运行时会在使用html标签和组件标签时报错
+        "jsx": "react",
+        // 该节点的作用是可以使组件导入时使用简单路径,和webpack.config.js的alias配置节点结合使用
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./src/components/*"],
+        }
+    }
+}
