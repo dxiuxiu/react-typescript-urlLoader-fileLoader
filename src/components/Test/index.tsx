@@ -1,5 +1,5 @@
 import * as React from 'react'
-import m1 from './img/1.png'
+import * as m1 from './img/1.png'
 
 import './index.less'
 export default class Test extends React.Component<any, any> {

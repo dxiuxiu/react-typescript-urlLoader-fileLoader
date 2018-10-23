@@ -97,7 +97,7 @@ module.exports = {
             limit: 1024, // 如果文件小于1024则直接处理为base64在代码中，如果大于1024则使用file-loader处理，将以文件的形式放到到指定文件夹下
             name: 'images/[hash:6].[ext]',
             fallback: 'file-loader', // 默认为file-loader
-            publicPath: './dist/'
+            publicPath: './'
           }
         }]
       },
